@@ -10,6 +10,9 @@ int main(void)
     Configurar_GPIO();
     Configurar_UART0();
     Configurar_SSI2();
+    //VALOR QUE CONVERTIREMOS
+    uint16_t value = 1000;
+
     while(1)
     {
         
